@@ -1,0 +1,180 @@
+/* 
+    html {
+        height:100%;
+    }
+    
+
+    hr{
+        width: 40%;
+    }
+    
+    h1,p {
+        text-align: center;
+    }
+    .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left{
+  left: 0;
+  color: white;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  
+  
+  
+  background-color:whitesmoke;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+   
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+ img {
+  width: 300px;
+  border-radius: 60%;
+}
+.nav {
+    overflow: hidden;
+    font-size: large;
+    position: absolute;
+    right: 5%;
+    bottom: 2px;
+    width: 100%; 
+    text-align: center;
+}
+a {
+    padding-left: 10%;
+}
+.main {
+  background-color: teal;
+  width: 100vw;
+  height: 70vh;
+  border: 0;
+  padding: 0;
+  margin: -10px;
+  outline: 0;
+  position:absolute;
+  top:0px; 
+  color: white;
+} 
+.fa {
+  /* padding: 1px; */
+  font-size: 20px; 
+  /* width: 50px; */
+  /* text-align: center; */
+  text-decoration: none;
+  color: black;
+  /* left: 50%; */
+}
+.fa1 {
+   padding: 1px; 
+  font-size: 20px; 
+  width: 50px; 
+   text-align: center; 
+  text-decoration: none;
+  color: black;
+ left:50%;
+
+}
+
+.fa:hover {
+   opacity: 0.7;
+}
+.smain {
+  background-color: teal;
+  width: 100vw;
+  height: 15vh;
+  border: 0;
+  padding: 0;
+  margin: -10px;
+  outline: 0;
+  /* position:absolute;
+  top:0px;  */
+  color: white;
+}
+.item {
+  display: block;
+  width: 300px;
+  float: left;
+  height: 330px;
+  margin: 10px;
+}
+.item1{
+  display: block;
+  width: 100px;
+  float: left;
+  height: 100px;
+  margin: 10px;
+}
+ .itemc {
+  display: block;
+  width: 450px;
+  float: left;
+  height: 350px;
+  margin: 10px;
+
+ }
+
+.row4 {
+
+  position: absolute;
+  top: 250px;
+  left: 6%;
+
+}
+.row {
+  position: absolute;
+  top: 250px;
+  left: 20%;
+
+}
+body {
+  background-color: whitesmoke;
+}
+.row1 {
+
+  position: absolute;
+  top: 200px;
+  width: 150px;
+  left: 25%;
+  
+
+}
+.row2 {
+
+  position: absolute;
+  top: 200px;
+  width: 150px;
+  left: 45.4%;
+  
+
+}
+.row3 {
+
+  position: absolute;
+  top: 200px;
+  width: 150px;
+  left: 66.5%;
+  
+
+}
+
+    
